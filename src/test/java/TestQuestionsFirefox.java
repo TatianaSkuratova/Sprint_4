@@ -35,6 +35,7 @@ public class TestQuestionsFirefox {
     public void after(){
         driver.quit();
     }
+    //Проверка вопросов о важном в Firefox
     @Test
     public void checkAnswer(){
         MainPage mainPage = new MainPage(driver);

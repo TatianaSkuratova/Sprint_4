@@ -45,6 +45,7 @@ public class TestOrderFirefox {
         };
     }
 
+    //Заказ самоката в Firefox
     @Test
     public void setOrder(){
         MainPage mainPage = new MainPage(driver);

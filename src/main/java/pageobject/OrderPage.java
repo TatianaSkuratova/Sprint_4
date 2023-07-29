@@ -18,7 +18,7 @@ public class OrderPage {
     private static final By INPUT_METRO = By.className("select-search__input");
     // Выпадающий список со станциями метро
     private static final By LIST_METRO = By.className("select-search__options");
-    // Значение станции метро
+    // Значение названия станции метро
     private static String VALUE_METRO = "//div[@class='Order_Text__2broi' and text()= '%s']";
     // Кнопка Далее
     private static final By BUTTON_PROCESS = By.xpath(".//div[@class='Order_NextButton__1_rCA']//button");

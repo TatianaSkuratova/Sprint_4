@@ -54,7 +54,7 @@ public class MainPage {
                 .until(ExpectedConditions.visibilityOfElementLocated(buttonsOrder.get(button)));
         element.click();
     };
-    //Скролл до блока с вопросами
+    //Скролл до блока с вопросами о главном
     public void scrollToQuestions(){
         WebElement element = driver.findElement(QUESTIONS_MAJOR);
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);

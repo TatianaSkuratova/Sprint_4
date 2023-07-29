@@ -51,6 +51,7 @@ public class TestOrderChrome {
                 { "Кнопка на странице", "Петя", "Петров", "Волгоград", "Достоевская", "74543646544", "22", "четверо суток", "чёрный жемчуг", "комментарий"},
         };
     }
+    //Заказ самоката в Chrome
     @Test
     public void setOrder(){
         MainPage mainPage = new MainPage(driver);

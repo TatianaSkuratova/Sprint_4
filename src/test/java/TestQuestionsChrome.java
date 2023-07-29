@@ -14,7 +14,8 @@ import java.io.File;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class TestQuestionsChrome {
+public class
+TestQuestionsChrome {
     private  WebDriver driver;
     private String question;
     private String answer;
@@ -42,6 +43,7 @@ public class TestQuestionsChrome {
     public void after(){
         driver.quit();
     }
+    //Проверка вопросов о важном в Chrome
     @Test
     public void checkAnswer(){
         MainPage mainPage = new MainPage(driver);
