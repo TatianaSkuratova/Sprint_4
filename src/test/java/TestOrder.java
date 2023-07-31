@@ -38,6 +38,7 @@ public class TestOrderChrome {
         chromeOptions.addArguments("--remote-allow-origins=*");
         chromeOptions.setBinary(new File("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"));
         driver = new ChromeDriver(chromeOptions);
+        //driver = new FirefoxDriver();
     }
 
     @After
